@@ -7,16 +7,23 @@
 import pandas as pd
 
 # Données : Séquence ADN, Longueur, Pourcentage de CG
-dta = { 
-        'Séquence': ['ATGCGTACGTA', 'GCTAGCTAGGC', 'ATGCGCGTAAGT', 'TACGATCGTA', 'ATGAAAGGCTT', 'CGTACGTAC', 'TTAACCGGAT'], 
-        'Longueur': [11, 11, 12, 10, 11, 9, 10],
-        'Pourcentage GC': [45.45, 63.64, 58.33, 40.00, 36.36, 66.67, 40.00]
+#J'ajoute les nouvelles séquence de l'image (ATGAAGGCTT et TTAACCGGAT)
+data = { 
+        "Séquence": ['ATGCGTACGTA', 'GCTAGCTAGGC', 'ATGCGCGTAAGT', 'TACGATCGTA', 'ATGAAAGGCTT', 'CGTACGTAC', 'TTAACCGGAT'], 
+        "Longueur": [12, 12, 12, 10, 11, 10, 10],
+        "Pourcentage GC": [50, 66.67, 58.33, 40, 45.45, 60, 50]
 }
 
-#  1) Créer et afficher le tableau
-df = pd.DataFrame(dta)
-print("1) Tableau initial :")
-print(df)
+# 1) Créer et afficher le tableau ci-dessous en utilisant la bibliothèque pandas.
+df = pd.DataFrame(data)
+print("**************** Création et affichage du DataFrame ****************"),"\n""\n")
+
+# Affichage du tableau initial"
+print("Tableau des séquences ADN :", "\n")
+print(df,"\n""\n" )
+
+# Opération sur le tableaux:
+print("**************** Opération demandées ****************")
 
 
 

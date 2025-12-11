@@ -19,8 +19,9 @@ print("1) Tableau initial :")
 print(df)
 
 #  2) Sélectionner et afficher uniquement La coLonne "Longueur"
-print("\n2) colonne 'Longueur' :")
-print(df['Longueur'])
+print("\n# 2) colonne 'Longueur' :")
+longueurs= df [ " Longueur"]
+print ( longueurs)
 
 
 

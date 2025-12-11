@@ -18,10 +18,7 @@ df = pd.DataFrame(dta)
 print("1) Tableau initial :")
 print(df)
 
-#  2) Sélectionner et afficher uniquement La coLonne "Longueur"
-print("\n# 2) colonne 'Longueur' :")
-longueurs= df [ " Longueur"]
-print ( longueurs)
+
 
 
 

@@ -58,8 +58,7 @@ print(df)
 # 7) Calculer  l’écart-type du %GC et de la longueur des séquences.
 print("\n# 7) Calcul de l'Ecart-type (Standard Deviation-std)")
 std_gc = df["pourcentage GC"].std()
-
-
+std_Longueur = df["longueur"].std()
 
 
 

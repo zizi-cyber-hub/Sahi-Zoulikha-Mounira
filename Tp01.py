@@ -7,7 +7,7 @@
 import pandas as pd
 
 # Données : Séquence ADN, Longueur, Pourcentage de CG
-#J'ajoute les nouvelles séquence de l'image (ATGAAGGCTT et TTAACCGGAT)
+# J'ajoute les nouvelles séquence de l'image (ATGAAGGCTT et TTAACCGGAT)
 data = { 
         "Séquence": ['ATGCGTACGTA', 'GCTAGCTAGGC', 'ATGCGCGTAAGT', 'TACGATCGTA', 'ATGAAAGGCTT', 'CGTACGTAC', 'TTAACCGGAT'], 
         "Longueur": [12, 12, 12, 10, 11, 10, 10],

@@ -56,6 +56,7 @@ df["Nombre de G" ]=df["séquence"].str.count ("G")
 print(df)
 
 # 7) Calculer  l’écart-type du %GC et de la longueur des séquences.
+print("\n# 7) Calcul de l'Ecart-type (Standard Deviation-std)")
 
 
 

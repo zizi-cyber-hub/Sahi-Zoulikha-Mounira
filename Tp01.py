@@ -14,7 +14,7 @@ dta = {
 }
 
 #  1) Créer et afficher le tableau
-df = pd.DataFrame(data)
+df = pd.DataFrame(dta)
 print("1) Tableau initial :")
 print(df)
 

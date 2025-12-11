@@ -39,6 +39,15 @@ print("\n# 4) Calcul de la moyenne de GC")
 average_gc = df["Pourcentage GC"].mean()
 # Afficher avec le formatage à 3 décimales
 print(f"Pourcentage moyen de GC : {averge_gc:.3}%")
+# 5) Ajouter une colonne "catégorie GC"
+print("\n# 5) Ajout de la colonne 'catégorie GC'")
+# Fonction lambda pour catégoriser le pourcentage de GC
+df["Catégorie GC"] = df["Pourcentage GC"].apply(
+    lambda x: "Riche" if x > 55
+    else ("Moyen" if 45 <= x <= 55
+    else "Faible")
+)
+print(df)
 
 
 

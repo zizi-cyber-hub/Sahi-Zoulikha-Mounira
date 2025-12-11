@@ -55,6 +55,8 @@ print ("\n# 6 ) Ajout de la colonne ' Nombre de G' ")
 df["Nombre de G" ]=df["séquence"].str.count ("G")
 print(df)
 
+# 7) Calculer  l’écart-type du %GC et de la longueur des séquences.
+
 
 
 

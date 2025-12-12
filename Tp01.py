@@ -68,7 +68,7 @@ print(f"Écart-type de la longueur : {std_longueur:.2f}")
 print("\n# 8) Sauvegarde du DataFrame dans un fichier CSV")
 # Sauvegarder le Dataframe dans un fichier CSV (sans l’index)
 file_name = "analyse_séquences_adn_final.csv"
-df.to_csv(file_name, index=False)
+df.to_csv(file_name, index=false)
 
 
 

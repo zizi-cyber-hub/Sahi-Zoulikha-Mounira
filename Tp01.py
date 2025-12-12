@@ -29,6 +29,7 @@ print("**************** Opération demandées ****************")
 print("\n# 2) colonne 'Longueur' :")
 longueurs= df["Longueur "]
 print(longueurs,"\n")
+
 # 3) Filtrer les séquences dont la longueur est supérieure à 10
 print("\n# 3) Filtrage : Séquences de Longueur > 10")
 filtered_df_long = df[df["Longueur"] > 10]

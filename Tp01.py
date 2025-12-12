@@ -1,4 +1,4 @@
-# NomDuChefDeProjet, Sahi Zoulikha Mounira, Master 1 Microbiologie Fondamentale , 10/12/2025)
+# Nom DuChefDeProjet, Sahi Zoulikha Mounira, Master 1 Microbiologie Fondamentale , 10/12/2025)
 # Nom du Membre 1 : Nedjar Douaa
 # Nom du Membre 2 : Zeggai Meriem
 # Nom du Membre 3 : Hachim El Chaima
@@ -59,11 +59,11 @@ df["Nombre de G"] = df["Séquence"].str.count("G")
 print(df)
 
 # 7) Calculer  l’écart-type du %GC et de la longueur des séquences.
-print("\n# 7) Calcul de l'Écart-type (Standard Deviation-std)")
+print("\n# 7) Calcul de l'Écart-type (Standard Deviation - std)")
 std_gc = df["pourcentage GC"].std()
-std_Longueur = df["Longueur"].std()
-print(f"Écart-type du Pourcentage GC : {std_gc:.2f}")
-print(f"Écart-type de la longueur : {std_longueur:.2f}")
+std_longueur = df["Longueur"].std()
+print(f"Ecart-type du Pourcentage GC : {std_gc:.2f}")
+print(f"Ecart-type de la Longueur : {std_longueur:.2f}")
 
 # 8) Sauvegarder le tableau final dans un fichier CSV.
 print("\n# 8) Sauvegarde du DataFrame dans un fichier CSV")

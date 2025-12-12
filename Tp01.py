@@ -62,6 +62,9 @@ std_Longueur = df["longueur"].std()
 print(f"Écart-type du Pourcentage GC : {std_gc:.2f}")
 print(f"Écart-type de la longueur : {std_longueur:.2f}")
 
+# 8) Sauvegarder le tableau final dans un fichier CSV.
+print("\n# 8) Sauvegarde du DataFrame dans un fichier CSV")
+
 
 
 

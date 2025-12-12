@@ -7,9 +7,9 @@
 import pandas as pd
 
 # Données : Séquence ADN, Longueur, Pourcentage de CG
-# J'ajoute les nouvelles séquence de l'image (ATGAAGGCTT et TTAACCGGAT)
+# J'ajoute les nouvelles séquences de l'image (ATGAAGGCTT et TTAACCGGAT)
 data = { 
-        "Séquence": ['ATGCGTACGTA', 'GCTAGCTAGGC', 'ATGCGCGTAAGT', 'TACGATCGTA', 'ATGAAAGGCTT', 'CGTACGTAC', 'TTAACCGGAT'], 
+        "Séquence": ['ATGCGTACGTA', 'GCTAGCTAGGCC', 'ATGCGCGTAAGT', 'TACGATCGTA', 'ATGAAAGGCTT', 'CGTACGTAGC', 'TTAACCGGAT'], 
         "Longueur": [12, 12, 12, 10, 11, 10, 10],
         "Pourcentage GC": [50, 66.67, 58.33, 40, 45.45, 60, 50]
 }
@@ -22,7 +22,7 @@ print("**************** Création et affichage du DataFrame ****************"),"
 print("Tableau des séquences ADN :", "\n")
 print(df,"\n""\n" )
 
-# Opération sur le tableaux:
+# Opération sur les tableaux:
 print("**************** Opération demandées ****************")
 
 # 2) Sélectionner et afficher uniquement la colonne "Longueur ".

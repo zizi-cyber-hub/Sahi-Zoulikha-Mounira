@@ -64,8 +64,7 @@ print(f"Écart-type de la longueur : {std_longueur:.2f}")
 
 # 8) Sauvegarder le tableau final dans un fichier CSV.
 print("\n# 8) Sauvegarde du DataFrame dans un fichier CSV")
-
-
+# Sauvegarder le tableau final dans un fichier CSV.
 
 
 

@@ -27,7 +27,7 @@ print("**************** Opération demandées ****************")
 
 # 2) Sélectionner et afficher uniquement la colonne "Longueur ".
 print("\n# 2) colonne 'Longueur' :")
-longueurs=df["Longueur"]
+longueurs = df["Longueur"]
 print(longueurs, "\n")
 
 # 3) Filtrer les séquences dont la longueur est supérieure à 10

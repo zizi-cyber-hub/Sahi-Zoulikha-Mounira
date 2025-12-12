@@ -28,7 +28,7 @@ print("**************** Opération demandées ****************")
 # 2) Sélectionner et afficher uniquement la colonne "Longueur ".
 print("\n# 2) colonne 'Longueur' :")
 longueurs=df["Longueur"]
-print(longueurs,"\n")
+print(longueurs, "\n")
 
 # 3) Filtrer les séquences dont la longueur est supérieure à 10
 print("\n# 3) Filtrage : Séquences de Longueur > 10")
@@ -54,8 +54,8 @@ print(df)
 
 # 6) Ajouter une colonne donnant le nombre de 'G' dans chaque séquence.
 print ("\n# 6 ) Ajout de la colonne 'Nombre de G'")
-# utiliser la méthode .str.count() sur la colonne "séquence"
-df["Nombre de G"] df["Séquence"].str.count("G")
+# utiliser la méthode .str.count() sur la colonne "Séquence"
+df["Nombre de G"] = df["Séquence"].str.count("G")
 print(df)
 
 # 7) Calculer  l’écart-type du %GC et de la longueur des séquences.

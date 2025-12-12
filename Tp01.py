@@ -1,4 +1,4 @@
-o# NomDuChefDeProjet, Sahi Zoulikha Mounira, Master 1 Microbiologie Fondamentale , 10/12/2025)
+# NomDuChefDeProjet, Sahi Zoulikha Mounira, Master 1 Microbiologie Fondamentale , 10/12/2025)
 # Nom du Membre 1 : Nedjar Douaa
 # Nom du Membre 2 : Zeggai Meriem
 # Nom du Membre 3 : Hachim El Chaima
@@ -40,6 +40,7 @@ print("\n# 4) Calcul de la moyenne de GC")
 average_gc = df["Pourcentage GC"].mean()
 # Afficher avec le formatage à 3 décimales
 print(f"Pourcentage moyen de GC : {averge_gc:.3}%")
+
 # 5) Ajouter une colonne "catégorie GC"
 print("\n# 5) Ajout de la colonne 'catégorie GC'")
 # Fonction lambda pour catégoriser le pourcentage de GC

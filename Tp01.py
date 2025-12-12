@@ -6,8 +6,7 @@
 
 import pandas as pd
 
-# Données : Séquence ADN, Longueur, Pourcentage de CG
-# J'ajoute les nouvelles séquences de l'image (ATGAAGGCTT et TTAACCGGAT)
+# Données : Séquence ADN, Longueur, Pourcentage de CG,
 data = { 
         "Séquence": ['ATGCGTACGTA', 'GCTAGCTAGGCC', 'ATGCGCGTAAGT', 'TACGATCGTA', 'ATGAAAGGCTT', 'CGTACGTAGC', 'TTAACCGGAT'], 
         "Longueur": [12, 12, 12, 10, 11, 10, 10],
@@ -16,7 +15,7 @@ data = {
 
 # 1) Créer et afficher le tableau ci-dessous en utilisant la bibliothèque pandas.
 df = pd.DataFrame(data)
-print("**************** Création et affichage du DataFrame ****************"),"\n""\n")
+print("**************** Création et affichage du DataFrame ****************"),"\n""\n",
 
 # Affichage du tableau initial"
 print("Tableau des séquences ADN :", "\n")
@@ -60,7 +59,7 @@ print(df)
 
 # 7) Calculer  l’écart-type du %GC et de la longueur des séquences.
 print("\n# 7) Calcul de l'Écart-type (Standard Deviation - std)")
-std_gc = df["pourcentage GC"].std()
+std_gc = df["Pourcentage GC"].std()
 std_longueur = df["Longueur"].std()
 print(f"Ecart-type du Pourcentage GC : {std_gc:.2f}")
 print(f"Ecart-type de la Longueur : {std_longueur:.2f}")
